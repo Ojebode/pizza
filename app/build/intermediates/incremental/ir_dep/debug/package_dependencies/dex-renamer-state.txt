@@ -1,0 +1,4 @@
+#Mon Dec 03 08:27:05 GST 2018
+base.0=C\:\\Users\\Joe\\StudioProjects\\Vik'zPizza\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex

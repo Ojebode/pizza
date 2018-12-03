@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vik\'z Pizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_fill_order">Fill_order</string>
+    <string name="title_activity_options">Options</string>
+    <string name="home">Home</string>
+    <string name="vikz">Welcome To Vik\'z Pizza</string>
+    <string name="hom">HOME</string>
+    <string name="info">Vik\'z Pizza is one of the leading and most recognised pizza restaurant in the world.We strive to satisfy our customers taste.</string>
+    <string name="reg">To Registration</string>
+    <string name="register">REGISTRATION</string>
+    <string name="fn">First Name</string>
+    <string name="ln">Last Name</string>
+    <string name="em">Emirate</string>
+    <string name="ad">Address</string>
+    <string name="pn">Phone No</string>
+    <string name="save">Save</string>
+    <string name="order">To Order</string>
+    <string name="sav">Save</string>
+    <string name="regist">Register</string>
+    <string name="fillorder">FILL ORDER</string>
+    <string name="pizzasSize">Pizza Size</string>
+    <string name="pizzatop">Pizza  Toppings</string>
+    <string name="psize">Pizza Size</string>
+    <string name="ptop">Pizza Toppings</string>
+    <string name="small">Small (S: Dhs. 20)</string>
+    <string name="medium">medium (M: Dhs. 30)</string>
+    <string name="large">" large (L: Dhs. 40)"</string>
+    <string name="supreme">Super Supreme</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="fajita">Chicken Fajita</string>
+    <string name="bbq">Chicken BBQ</string>
+    <string name="options">To Options</string>
+    <string name="savee">Save</string>
+    <string name="opt">OPTIONS</string>
+    <string name="display">Display</string>
+    <string name="res">Results</string>
+    <string name="result">Results :</string>
+    <string name="confirm">Confirm</string>
+    <string name="sub">Submit</string>
+    <string name="title_activity_confirm">Confirm</string>
+    <string name="conf">CONFIRM</string>
+    <string name="sms">SMS</string>
+    <string name="message">SMS</string>
+    <string name="or">OR</string>
+    <string name="phone">PHONE</string>
+    <string name="mesage">SMS</string>
+    <string name="call">PHONE</string>
+    <string name="results">Results :</string>
+    <string name="vikky">Welcome To Vik\'z Pizza</string>
+
+</resources>

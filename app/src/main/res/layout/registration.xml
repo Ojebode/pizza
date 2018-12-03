@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Registration" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="80dp"
+        android:text="@string/register"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/Olive" />
+
+    <TextView
+        android:id="@+id/tvfn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="20dp"
+        android:text="@string/fn"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tvln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvfn"
+        android:layout_below="@+id/tvfn"
+        android:layout_marginBottom="20dp"
+        android:text="@string/ln"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tvem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvln"
+        android:layout_below="@+id/tvln"
+        android:layout_marginBottom="20dp"
+        android:text="@string/em"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tvad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvem"
+        android:layout_below="@+id/tvem"
+        android:layout_marginBottom="20dp"
+        android:text="@string/ad"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tvph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvad"
+        android:layout_below="@+id/tvad"
+        android:text="@string/pn"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textColor" />
+
+    <Button
+        android:id="@+id/btnToOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/order" />
+
+    <EditText
+        android:id="@+id/etfn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvfn"
+        android:layout_alignBottom="@+id/tvfn"
+        android:layout_alignLeft="@+id/btnToOrder"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvln"
+        android:layout_alignBottom="@+id/tvln"
+        android:layout_alignLeft="@+id/etfn"
+        android:layout_alignRight="@+id/etfn"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor" />
+
+    <EditText
+        android:id="@+id/etEm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvem"
+        android:layout_alignBottom="@+id/tvem"
+        android:layout_alignLeft="@+id/etln"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor" />
+
+    <EditText
+        android:id="@+id/etAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvad"
+        android:layout_alignBottom="@+id/tvad"
+        android:layout_alignLeft="@+id/etEm"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor"
+         />
+    	
+    <EditText
+        android:id="@+id/etPn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvph"
+        android:layout_alignBottom="@+id/tvph"
+        android:layout_alignLeft="@+id/etAdd"
+        android:layout_alignRight="@+id/etAdd"
+        android:ems="10"
+        android:inputType="phone|text"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textColor" />
+
+</RelativeLayout>
